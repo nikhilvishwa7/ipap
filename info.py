@@ -16,7 +16,7 @@ PORT = environ.get("PORT", "8080")
 SESSION = environ.get('SESSION', 'ipapcornbot')
 API_ID = int(environ.get('API_ID', '15823382'))
 API_HASH = environ.get('API_HASH', '016d5e115a06ddfb6121823d72ae4d8c')
-BOT_TOKEN = environ.get('BOT_TOKEN', "5120091936:AAHbfwbwTuBXK2zbDWV3o4TkGKJR62_oqJo")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6230153536:AAHua_9TC0C2Du4lD5doyMvIoynj-KV6_OE")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
