@@ -29,7 +29,7 @@ ADMINS = (ADMINS.copy() + [1938030055])
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', 'xxxxxxxxxx').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-auth_channel = environ.get('AUTH_CHANNEL', '-1001740189478')
+auth_channel = environ.get('AUTH_CHANNEL', '')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
@@ -39,7 +39,7 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", True))
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Dipanshu_021:ad8920@cluster0.f7migc1.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cynitev5Lauda")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'files')
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegramfiles')
 
 # Others
 PLAN_NAME = environ.get('PLAN_NAME', 'Not Active')
