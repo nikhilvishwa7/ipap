@@ -244,7 +244,7 @@ async def advantage_spoll_choker(bot, query):
                 InlineKeyboardButton("Click Here To Check Spelling ✅", url=f"https://www.google.com/search?q={movie}")
             ]]
             reply_markup = InlineKeyboardMarkup(btn)
-            k = await query.message.edit('<b>△ 𝙷𝚎𝚢 𝚜𝚘𝚗𝚊 😎,\n\nPʟᴇᴀsᴇ Sᴇᴀʀᴄʜ Yᴏᴜʀ Mᴏᴠɪᴇs Hᴇʀᴇ.\n\n༺ ➟ 👮 Movie Group Link : https://t.me/+yVBYnhJLr7dhOTg1 ༻! </b>')
+            k = await query.message.edit('<b>△ 𝙷𝚎𝚢 𝚜𝚘𝚗𝚊 😎,\n\nPʟᴇᴀsᴇ Sᴇᴀʀᴄʜ Yᴏᴜʀ Mᴏᴠɪᴇs Hᴇʀᴇ.\n\n༺ ➟ 👮 Movie Group Link : https://t.me/NewMovie1stOnTG </b>')
             await query.message.edit_reply_markup(reply_markup)
             await bot.send_message(-1001754309185, text=f'<b>#NO_RESULTS\nSIR THIS MOVIE IS NOT FOUND IN MY DATABASE\n\nMOVIE NAME : {movie}</b>', reply_markup=reply_markup)
             await asyncio.sleep(30)
@@ -1117,7 +1117,7 @@ async def advantage_spell_chok(msg):
         ]]
         reply_markup = InlineKeyboardMarkup(button)
         await srh_msg.edit_text(
-            text="<b>△ 𝙷𝚎𝚢 𝚜𝚘𝚗𝚊 😎,\n\nPʟᴇᴀsᴇ Sᴇᴀʀᴄʜ Yᴏᴜʀ Mᴏᴠɪᴇs Hᴇʀᴇ.\n\n༺ ➟ 👮 Movie Group Link : https://t.me/+yVBYnhJLr7dhOTg1 ༻! </b>')
+            text=" 𝙷𝚎𝚢 𝚜𝚘𝚗𝚊 😎,\n\nPʟᴇᴀsᴇ Sᴇᴀʀᴄʜ Yᴏᴜʀ Mᴏᴠɪᴇs Hᴇʀᴇ.\n\n༺ ➟ 👮 Movie Group Link : https://t.me/NewMovie1stOnTG')
         )
         await srh_msg.edit_reply_markup(reply_markup)
         await bot.send_message(-1001529577466, text=f'<b>#NO_RESULTS\nSIR THIS MOVIE IS NOT FOUND IN MY DATABASE\n\nMOVIE NAME : {movie}</b>', reply_markup=reply_markup)
