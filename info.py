@@ -37,8 +37,8 @@ reqst_channel = environ.get('REQST_CHANNEL_ID')
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", True))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Dipanshu_021:ad8920@cluster0.f7migc1.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Cynitev5Lauda")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Nikhil_Vishwa7:nikhil_vishwa7@cluster0.dla9mvs.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Cluste1r")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegramfiles')
 
 # Others
