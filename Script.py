@@ -15,8 +15,8 @@ class script(object):
     START_TXT = environ.get("START_TXT", '''HELLO {} 👋🏻  𝙸 𝙰𝙼 𝙰𝙽 𝙰𝙳𝚅𝙰𝙽𝙲𝙴𝙳 𝙰𝚄𝚃𝙾-𝙵𝙸𝙻𝚃𝙴𝚁 𝙱𝙾𝚃. 𝚈𝙾𝚄 𝙲𝙰𝙽 𝚄𝚂𝙴 𝙰𝙽𝚈 𝚂𝙷𝙾𝚁𝚃𝙽𝙴𝚁 𝙸𝙽𝚃𝙾 𝙼𝙴 𝚃𝙷𝙴𝙽 𝙸 𝚆𝙸𝙻𝙻 𝙶𝙸𝚅𝙴 𝚈𝙾𝚄𝚁 𝙻𝙸𝙽𝙺𝚂 𝙸𝙽 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝙸𝙽 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙼𝙰𝙺𝙴 𝙼𝙴 𝙰𝙳𝙼𝙸𝙽❤️‍🔥</i>''')
     HELP_TXT = """ʜᴇʏ {}
 ʜᴇʀᴇ ɪs ʜᴇʟᴘ sᴇᴄᴛɪᴏɴ. ."""
-    ABOUT_TXT = """<b>ᴀʙᴏᴜᴛ ᴍᴇ <i>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/Owner_contact_rebot><b>𝙊𝙒𝙉𝙀𝙍 𝘾𝙊𝙉𝙏𝘼𝘾𝙏 𝘽𝙊𝙏</b></a>\n
-👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/Owner_contact_rebot><b>𝙊𝙒𝙉𝙀𝙍 𝘾𝙊𝙉𝙏𝘼𝘾𝙏 𝘽𝙊𝙏</b></a>\n
+    ABOUT_TXT = """<b>ᴀʙᴏᴜᴛ ᴍᴇ <i>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/Vis10n7><b>𝙊𝙒𝙉𝙀𝙍 𝘾𝙊𝙉𝙏𝘼𝘾𝙏 𝘽𝙊𝙏</b></a>\n
+👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/Vis10n7><b>𝙊𝙒𝙉𝙀𝙍 𝘾𝙊𝙉𝙏𝘼𝘾𝙏 𝘽𝙊𝙏</b></a>\n
 📡 ʜᴏsᴛᴇᴅ ᴏɴ : 𝐏𝐀𝐈𝐃 𝐕𝐏𝐒\n
 📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/tlgdirectmovies_bot_updates><b></b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n"""
     SOURCE_TXT = """<b>𝐂𝐫𝐞𝐚𝐭𝐞 𝐎𝐧𝐞 𝐋𝐢𝐤𝐞 𝐓𝐡𝐢𝐬:</b>
@@ -46,7 +46,7 @@ class script(object):
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/tlgdirectmovies_bot_updates)</code>
+<code>[Button Text](buttonurl:https://t.me/Vis10n7)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
