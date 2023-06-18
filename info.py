@@ -14,9 +14,9 @@ def is_enabled(value, default):
 # Bot information
 PORT = environ.get("PORT", "8080")
 SESSION = environ.get('SESSION', 'ipapcornbot')
-API_ID = int(environ.get('API_ID', '15823382'))
-API_HASH = environ.get('API_HASH', '016d5e115a06ddfb6121823d72ae4d8c')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6230153536:AAHua_9TC0C2Du4lD5doyMvIoynj-KV6_OE")
+API_ID = int(environ.get('API_ID', ''))
+API_HASH = environ.get('API_HASH', '')
+BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -38,14 +38,14 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", True))
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Dipanshu_021:ad8920@cluster0.f7migc1.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Cynitev5Bot")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Cynitev5Lauda")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'files')
 
 # Others
 PLAN_NAME = environ.get('PLAN_NAME', 'Not Active')
 EXP_DATE = environ.get('EXP_DATE', 'Not Active')
 SUB_DATE = environ.get('SUB_DATE', 'Not Active')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001754309185'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001519664150'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'ipapcornsupport')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), False)
@@ -76,8 +76,8 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
     
 # URL Shortener #
 
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'flashlink.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'f83fccf13f976f443c234e9990aeea7d56135284')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'omnifly.in.net')
+SHORTLINK_API = environ.get('SHORTLINK_API', '45c911f1b1d6c57c9b01b64ec7780416591e5903')
 
      # Auto Delete For Group Message (Self Delete) #
 SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 120))
@@ -87,11 +87,11 @@ if SELF_DELETE == "True":
 
     # Download Tutorial Button #
 DOWNLOAD_TEXT_NAME = "📥 HOW TO DOWNLOAD 📥"
-DOWNLOAD_TEXT_URL = "https://t.me/How_To_open_short/41"
+DOWNLOAD_TEXT_URL = "https://t.me/OpenOmnifly"
 
    # Custom Caption Under Button #
 CAPTION_BUTTON = "JOIN MY CHANNEL"
-CAPTION_BUTTON_URL = "https://t.me/Film_Update_Official"
+CAPTION_BUTTON_URL = "https://t.me/VisionBackup"
 
 
    # Auto Delete For Bot Sending Files #
